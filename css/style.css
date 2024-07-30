@@ -1,3 +1,11 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --color1: #04364A;
+    --color2: #176B87;
+    --color3: #64CCC5;
+    --color4: #DAFFFB;
+
+    --font1: "Edu AU VIC WA NT Hand", cursive;
+    --font2: "Roboto Condensed", sans-serif;
 }
