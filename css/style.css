@@ -86,3 +86,30 @@ body, html{
 .icon{
     padding-left: 1rem;
 }
+
+.header{
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, var(--color2),var(--color3), var(--color4));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, var(--color2),var(--color3), var(--color4)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    height: 100vh;
+    
+}
+
+.header-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    font-family: var(--font2);
+    size: 3rem;
+    color: var(--color4);
+}
+
+.header-par{
+    font-family: var(--font2);
+    size: 2rem;
+    color: var(--color4);
+}
