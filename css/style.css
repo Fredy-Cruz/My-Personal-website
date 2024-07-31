@@ -100,16 +100,21 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 100%;
 }
 
 .header-title{
     font-family: var(--font2);
-    size: 3rem;
+    font-size: 3rem;
     color: var(--color4);
+    padding: 1rem;
+    border-right: 2px solid var(--color4);
 }
 
 .header-par{
     font-family: var(--font2);
-    size: 2rem;
+    font-size: 1.5rem;
     color: var(--color4);
+    padding-left: 1rem;
 }
