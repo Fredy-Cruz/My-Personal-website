@@ -118,3 +118,33 @@ body, html{
     color: var(--color4);
     padding-left: 1rem;
 }
+
+.about{
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+
+.about-img{
+    object-fit: cover;
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    gap: 1rem;
+}
+
+.about-img:nth-child(2){
+    margin-top: 2rem;
+}
+
+.about-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font1);
+    font-size: 3rem;
+    color: var(--color2);
+}
